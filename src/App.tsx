@@ -8,7 +8,7 @@ interface DbChangeEvent {
   timestamp: string;
 }
 
-const socket: Socket = io("http://localhost:4000");
+const socket: Socket = io("stright-deal-api-production.up.railway.app");
 
 function App() {
   const [notif, setNotif] = useState<string | null>(null);
